@@ -4,11 +4,11 @@ import google.generativeai as genai
 import streamlit as st
 
 # getting the working dir
-working_dir = os.path.dirname(os.path.abspath(__file__))
+# working_dir = os.path.dirname(os.path.abspath(__file__))
 
 
-config_file_path = f"{working_dir}/config.json"
-config_data = json.load(open(config_file_path))
+# config_file_path = f"{working_dir}/config.json"
+# config_data = json.load(open(config_file_path))
 
 # loading api key
 # GOOGLE_API_KEY = config_data['GOOGLE_API_KEY']
