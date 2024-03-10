@@ -1,6 +1,7 @@
 import os
 import json
 import google.generativeai as genai
+import streamlit as st
 
 # getting the working dir
 working_dir = os.path.dirname(os.path.abspath(__file__))
