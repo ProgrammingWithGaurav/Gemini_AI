@@ -10,7 +10,8 @@ config_file_path = f"{working_dir}/config.json"
 config_data = json.load(open(config_file_path))
 
 # loading api key
-GOOGLE_API_KEY = config_data['GOOGLE_API_KEY']
+# GOOGLE_API_KEY = config_data['GOOGLE_API_KEY']
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 print(GOOGLE_API_KEY)
 
 # config
